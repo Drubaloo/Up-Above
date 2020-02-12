@@ -19,48 +19,120 @@
 
 
     <!-- Custom CSS-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/date.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Up Above</title>
 </head>
 
 <body class="bg">
+
         <div class="container">
          <div class="row">  
               <h1 id="header" class="center-align">UP ABOVE</h1>
-              <h5 class="center-align">Your Coordinates</h5>
-         </div>
-        
-        <div id="modal"></div>
+              <h5 class="center-align">Showing the brilliance of the night sky in an ever-expanding universe. Coordinates</h5>
          </div>
 
-         <div class="row">
-            <form class="col s12">
-              <div class="row ">
-                <div class="input-field col s8 offset-s2">
-                  <i class="material-icons prefix" id="search">room</i>
-
-                  <textarea id="input-location" class="materialize-textarea"></textarea>
-                  <label for="icon_prefix2">Search Your Location</label>
-
-                </div>
-              </div>
-            </form>
-          </div>
-        
-        <footer>
         <div class="row">
-        <div class="footer-copyright center-align">
-            © 2020 Copyright
-          </div>
+          <fieldset class="date center-align">
+            <label for="month">Month</label>
+            <select id="month"
+                    name="month" />
+              <option>January</option>      
+              <option>February</option>      
+              <option>March</option>      
+              <option>April</option>      
+              <option>May</option>      
+              <option>June</option>      
+              <option>July</option>      
+              <option>August</option>      
+              <option>September</option>      
+              <option>October</option>      
+              <option>November</option>      
+              <option>December</option>      
+            </select> -
+            <label for="day">Day</label>
+            <select id="day"
+                    name="day" />
+              <option>1</option>      
+              <option>2</option>      
+              <option>3</option>      
+              <option>4</option>      
+              <option>5</option>      
+              <option>6</option>      
+              <option>7</option>      
+              <option>8</option>      
+              <option>9</option>      
+              <option>10</option>      
+              <option>11</option>      
+              <option>12</option>      
+              <option>13</option>      
+              <option>14</option>      
+              <option>15</option>      
+              <option>16</option>      
+              <option>17</option>      
+              <option>18</option>      
+              <option>19</option>      
+              <option>20</option>      
+              <option>21</option>      
+              <option>22</option>      
+              <option>23</option>      
+              <option>24</option>      
+              <option>25</option>      
+              <option>26</option>      
+              <option>27</option>      
+              <option>28</option>      
+              <option>29</option>      
+              <option>30</option>      
+              <option>31</option>      
+            </select> -
+            <label for="year">Year</label>
+            <select id="year"
+                   name="year" />
+              <option>2015</option>      
+              <option>2016</option>      
+              <option>2017</option>      
+              <option>2018</option> 
+              <option>2019</option>      
+              <option>2020</option>      
+              <option>2021</option>      
+              <option>2022</option>      
+            </select>
+          </fieldset>
         </div>
-        </footer>
 
-    <!-- Optional JavaScript -->
+        <div class="row center-align">
+          <button class="btn waves-effect waves-light  indigo darken-4" type="submit" name="action" id="submit">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+         
+
+<!-- will display picture of the day -->
+          <img id="potd" class="center-align">
+<!-- description of picture -->
+          <p id='info'></p>
+
+
+
+
+
+
+     
+
+       
+      
+       
+
+    
+   
     <!-- jQuery first, then main.js, then minified JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
     
-    <script src="assets/js/script.js"></script>
+    <!-- optional JS -->
+    <script src="./assets/js/script.js"></script>
+
+  
 
     
 
