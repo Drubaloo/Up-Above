@@ -31,8 +31,23 @@ footer {
     width: 100%;   
     justify-content: center;  
 }       
+.nasaSection {
+    background-color: rgba(19, 22, 30, 0.7);
+    border: none;
+    width: 100%;
+  }
 
 
+#nasaInfo {
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+#potd {
+    margin-left: 27%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px grey;
+}
 
 #searchBar {    
     position: absolute;   
