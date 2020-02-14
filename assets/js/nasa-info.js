@@ -17,6 +17,9 @@ $(`#submit`).on(`click`, function (event) {
         $(`#potd`).attr(`src`, potd)
         $(`#potd`).css({ 'width': '700px', 'height': '700px' })
 
+        document.getElementById(`nasaInfo`).classList.add(`section`)
+        document.getElementById(`nasaInfo`).classList.remove(`bottom`)
+
         var info = response.explanation
 
         $(`#info`).text(info)
