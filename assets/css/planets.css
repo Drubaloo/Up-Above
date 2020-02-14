@@ -1,20 +1,51 @@
+body {
+  color: white;
+}
+
+.bg {
+  background-image: url(../images/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
 header {
-    font-family: 'Lato', sans-serif;
-    color: white;
-    font-size: 50px;
-    padding-bottom: 5%;
-    padding-top: 1%;
+  color: white;
+  font-size: 50px;
+  padding-bottom: 5%;
+  padding-top: 1%;
 }
 
 img {
-    height: 30%;
-    width: 30%;
+  height: 30%;
+  width: 30%;
 }
 
-.bg {    
-    background-image: url(../images/background.png);   
-     background-attachment: fixed;   
-     background-position: center;   
-     background-repeat: no-repeat;    
-     background-size: cover;       
- }          
+.moreInfo {
+ flex: auto;
+}
+
+.section {
+  background-color: rgba(19, 22, 30, 0.7);
+  border: none;
+}
+
+
+.sectionFacts {
+  background-color: rgba(19, 22, 30, 0);
+  border: none;
+  box-shadow: none;
+}
+
+
+.parallax-container {
+ 
+  margin: auto;
+}
