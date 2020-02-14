@@ -30,13 +30,24 @@ var moon9 = $("#pluto-moon")
 // var neptuneDiscovered = $("#neptune-discovered")
 // var plutoDiscovered = $("#pluto-discovered")
 
-var planet = "mars"
-var queryURL = "https://api.le-systeme-solaire.net/rest/bodies/" + planet
+
+var planets = [240, 244, 243, 239, 238, 241, 199, 219, 208]
+var queryURL = "https://api.le-systeme-solaire.net/rest/bodies/"
 $.ajax({
     url: queryURL,
     method: "GET"
 
 }).then(function (response) {
-    console.log(response)
+    console.log(response.bodies[planets[2]].moons.length)
 
+//   var planetIndex = 1;
+//     for (var i = 0; i < planets.length; i++) {
+
+//         moon1.text(response.bodies[planets][i].moons)
+
+        
+
+//         planetIndex += 1;
+
+//     }
 })
