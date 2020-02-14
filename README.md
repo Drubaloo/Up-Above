@@ -1,36 +1,28 @@
 # Up-Above
 "Showing the brilliance of the night sky in an ever-expanding universe."
 
-**Proposal**
-Up Above is an app that tells you what planets, stars, and constellations are above either a specified location, or the users current location. It provides the user with their current coordinates and gives them information about the celestial bodies above a specified location. 
+**Site URL**
+https://drubaloo.github.io/Up-Above/
 
+**What is it?**
+Up Above is a website that aims to inform. It does the following:
+- provides the user with the NASA image of the day of the specified date
+- has every image that NASA has featured, from 2015 until present time
+- provides basic information on and links to more information: sun, earth, mars, mercury, venus, jupiter, neptune, uranus, saturn, and pluto
 
-**Task allocation**
-- (Nick) Create main HTML broilerplate, link to proper libraries, files, etc.
-- (Kayla, Jen, Dru) Find all APIs
-- (?) Calendar that shows upcoming and past events (eclipses, comets, etc.)
-- (Nick) Save locations that the user can go back to (Seattle, WA, & Budapest, Hungary, etc. / previous searches)
-- (Dru) Display users current coordinates
-- (Jen) Tell what planets, constellations, galaxies, and stars are above the user or a certain location
-- (Kayla) Images of planets, constellations, galaxies, and stars
-- (Jen) Gives user information about the things above them/the location user specified
-- (Dru) Location / geolocation
+**Any upcoming technologies?**
+- moon phases
+- age calculator
 
-
-
-**Technologies**
+**What technologies and languages does it use?**
 HTML
-CSS
+CSS / Parallax
 JavaScript
 jQuery
 Materialize
 
-
-**APIs**
+**What APIs are being utilized?**
 > Solar System Open Data: https://www.programmableweb.com/api/solar-system-opendata
-> NASA APIs:
-- EONET
-- DONKI
-- NASA Image and Video Library
 
-https://drubaloo.github.io/Up-Above/
+**Do you have references for your information?**
+> https://nssdc.gsfc.nasa.gov/planetary/factsheet/
