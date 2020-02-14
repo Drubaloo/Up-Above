@@ -21,7 +21,7 @@ $.ajax({
         if (!response.bodies[planets[i]].moons) {
             $(`#${response.bodies[planets[i]].id}-moon`).text("Moons: 0")
         } else {
-            $(`#${response.bodies[planets[i]].id}-moon`).text("Moons: " + response.bodies[planets[i]].moons.length)
+            $(`#${response.bodies[planets[i]].id}-moon`).text("Number of Moons: " + response.bodies[planets[i]].moons.length)
         }
         //gravity
         $(`#${response.bodies[planets[i]].id}-gravity`).text("Gravity: " + response.bodies[planets[i]].gravity + " m/s\xB2")
