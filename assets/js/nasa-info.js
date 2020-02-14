@@ -1,29 +1,32 @@
-$(`#submit`).on(`click`, function (event) {
-    event.preventDefault()
+$(`#submit`).on(`click`, function(event) {
+  event.preventDefault();
 
-    var queryURL = `https://api.nasa.gov/planetary/apod?date=` + $(`#year`).val() + `-` + $(`#month`).val() + `-` + $(`#day`).val() + `&api_key=FqKeM986TCmDmnbE8alw7dbFd9bAGT3hhgaEGrpt`
+  var queryURL =
+    `https://api.nasa.gov/planetary/apod?date=` +
+    $(`#year`).val() +
+    `-` +
+    $(`#month`).val() +
+    `-` +
+    $(`#day`).val() +
+    `&api_key=FqKeM986TCmDmnbE8alw7dbFd9bAGT3hhgaEGrpt`;
 
-    $(`#potd`).attr(`src`, '')
-    $(`#info`).empty()
+  $(`#potd`).attr(`src`, "");
+  $(`#info`).empty();
 
-    $.ajax({
-        url: queryURL,
-        method: "GET"
+  $.ajax({
+    url: queryURL,
+    method: "GET"
+  }).then(function(response) {
+    var potd = response.hdurl;
 
-    }).then(function (response) {
+    $(`#potd`).attr(`src`, potd);
+    $(`#potd`).css({ width: "700px", height: "700px" });
 
-        var potd = response.hdurl
+    document.getElementById(`nasaInfo`).classList.add(`section`);
+    document.getElementById(`nasaInfo`).classList.remove(`bottom`);
 
-        $(`#potd`).attr(`src`, potd)
-        $(`#potd`).css({ 'width': '700px', 'height': '700px' })
+    var info = response.explanation;
 
-        document.getElementById(`nasaInfo`).classList.add(`section`)
-        document.getElementById(`nasaInfo`).classList.remove(`bottom`)
-
-        var info = response.explanation
-
-        $(`#info`).text(info)
-
-    })
-
-})
+    $(`#info`).text(info);
+  });
+});
