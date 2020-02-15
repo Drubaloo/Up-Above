@@ -40,7 +40,7 @@ WHEN I enter a particular date and click submit,
 THEN I am shown the NASA image of the day for the day I selected.
 
 WHEN I scroll down past the image of the day,
-THEN I am shown each major body in our galaxy, in order form the sun to pluto.
+THEN I am shown each major body in our galaxy, in order from the sun to pluto.
 
 WHEN I click "click for more info" beneath each planet,
 THEN an area appears below with more information regarding that planet.
