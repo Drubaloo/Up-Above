@@ -66,3 +66,13 @@ h5 {
 .bottom{
     margin-bottom: 20rem !important;
 }
+
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webskit-min-device-pixel-ratio: 2) {
+
+#month, #day, #year {
+    width: 20%;
+}
+}
