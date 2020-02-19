@@ -15,10 +15,33 @@ body {
   background-size: cover;
 }
 
+select {
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+select option {
+  background: #e0e0e0;
+  color: black;
+  border-radius: 10px;
+}
+
 .date {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
+  border-radius: 10px;
+}
+
+.btn {
+  border-radius: 10px;
+  color: black;
+}
+
+.btn:hover {
+  color: black;
+}
+
+option {
+  border-radius: 10px;
 }
 
 #header {
@@ -107,4 +130,3 @@ h5 {
     width: 10%;
   }
 }
-
