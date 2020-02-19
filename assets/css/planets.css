@@ -57,16 +57,16 @@ footer {
 
 /* planet resizing */
 .pluto {
-    width: 180vw;
-    margin-left: -39%;
+    width: 180vw !important;
+    margin-left: -39% !important;
 }
 
 .neptune, .uranus, .venus, .earth {
-    width: 90%;
-    margin-left: 5%;
+    width: 90% !important;
+    margin-left: 5% !important;
 }
 
 .jupiter {
-    width: 110%;
-    margin-left: -5%;
+    width: 110% !important;
+    margin-left: -5% !important;
 }
