@@ -22,7 +22,12 @@ header {
   padding-bottom: 5%;
   padding-top: 1%;
 }
-
+footer {
+    position: relative;
+    padding-top: 20%;
+    color: lightgray;
+    font-size: small;
+}
 .planetImg {
   height: 30%;
   width: 30%;
@@ -46,6 +51,22 @@ header {
 
 
 .parallax-container {
- 
+    width: 100%;
   margin: auto;
+}
+
+/* planet resizing */
+.pluto {
+    width: 180vw;
+    margin-left: -39%;
+}
+
+.neptune, .uranus, .venus, .earth {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.jupiter {
+    width: 110%;
+    margin-left: -5%;
 }
