@@ -10,7 +10,6 @@ body {
   background-size: cover;
 }
 
-
 h2 {
   font-family: "Lato", sans-serif;
   font-weight: 900;
@@ -23,10 +22,10 @@ header {
   padding-top: 1%;
 }
 footer {
-    position: relative;
-    padding-top: 20%;
-    color: lightgray;
-    font-size: small;
+  position: relative;
+  padding-top: 20%;
+  color: lightgray;
+  font-size: small;
 }
 .planetImg {
   height: 30%;
@@ -34,7 +33,7 @@ footer {
 }
 
 .moreInfo {
- flex: auto;
+  flex: auto;
 }
 
 .section {
@@ -42,50 +41,51 @@ footer {
   border: none;
 }
 
-
 .sectionFacts {
   background-color: rgba(19, 22, 30, 0);
   border: none;
   box-shadow: none;
 }
 
-
 .parallax-container {
-    width: 100%;
+  width: 100%;
   margin: auto;
 }
 
 /* planet resizing */
 .pluto {
-    width: 170%;
-    margin-left: -35%;
+  width: 170%;
+  margin-left: -35%;
 }
 
-.mercury, .mars {
-    width: 80%;
-    margin-left: 9%;
+.mercury,
+.mars {
+  width: 80%;
+  margin-left: 9%;
 }
 
 .sun {
-    width: 90%;
-    margin-left: 5%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .mars {
-    margin-left: 8%;
+  margin-left: 8%;
 }
 
-.neptune, .uranus, .earth {
-    width: 75%;
-    margin-left: 12%;
+.neptune,
+.uranus,
+.earth {
+  width: 75%;
+  margin-left: 12%;
 }
 
 .venus {
-    width: 75%;
-    margin-left: 10%;
+  width: 75%;
+  margin-left: 10%;
 }
 
 .jupiter {
-    width: 100%;
-    margin-right: 7%;
+  width: 100%;
+  margin-left: -1%;
 }
