@@ -19,7 +19,7 @@ $.ajax({
     // moon length
     for (var i = 0; i < planets.length; i++) {
         if (!response.bodies[planets[i]].moons) {
-            $(`#${response.bodies[planets[i]].id}-moon`).text("Moons: 0")
+            $(`#${response.bodies[planets[i]].id}-moon`).text("Number of Moons: 0")
         } else {
             $(`#${response.bodies[planets[i]].id}-moon`).text("Number of Moons: " + response.bodies[planets[i]].moons.length)
         }
