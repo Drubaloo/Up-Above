@@ -1,6 +1,8 @@
 # Up-Above
 "Showing the brilliance of the night sky in an ever-expanding universe."
 
+![Image of Preview](./preview.png)
+
 ## Site URL
 https://drubaloo.github.io/Up-Above/
 
